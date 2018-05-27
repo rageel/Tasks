@@ -1,5 +1,3 @@
-Holy grail
+1.  Holy grail
 
-Właściwość flex-shrink
-
-*   dodaj odpowiednie właściwości kontenerowi i zdjęciom, tak aby przy zmniejszaniu rozmiaru okna przeglądarki, zdjęcia się nie kurczyły, tylko przewijały
+2.  Przy zmniejszaniu rozmiaru okna przeglądarki, zdjęcia mają się nie kurczyć, tylko przewijać.
