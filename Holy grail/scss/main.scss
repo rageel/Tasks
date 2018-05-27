@@ -1,0 +1,61 @@
+//Holy grail
+
+.hoily-grail {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: 10px;
+
+    header {
+        background: #f28ca4;
+        height: 20vh;
+    }
+    main {
+        display: flex;
+        margin: 10px;
+        .left {
+            width: 30vw;
+            margin: 5px;
+            margin-bottom: 20px;
+            .left-item {
+                height: 7vh;
+                background: #9abbda;
+                margin-bottom: 10px;
+            }
+        }
+        .middle {
+            background: #e8f0ed;
+            width: 40vw;
+        }
+        .right {
+            width: 30vw;
+            background: #58ecf9;
+        }
+    }
+    footer {
+        background: #53575a;
+        height: 20vh;
+        margin-top: 10px;
+    }
+}
+
+//Przewijanie zdjęć
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background: grey;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-shrink: 0;
+    overflow: scroll;
+    justify-content: space-between;
+    img {
+        margin: 10px;
+        height: 200px;
+        width: 200px;
+    }
+}
