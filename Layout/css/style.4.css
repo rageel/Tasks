@@ -8,6 +8,10 @@ header, section, footer {
 header, footer {
     min-height: 80px;
 }
+header {
+    background: #d2e1f4;
+    color: #4c4436;
+}
 .container {
     width: 70%;
     margin: 0 auto;
@@ -29,6 +33,7 @@ nav {
 .header_logo {
     float: left;
     width: 40%;
+    font-size: 2em;
 }
 .row {
     margin: 10px 0;
@@ -36,12 +41,14 @@ nav {
 }
 .big_box_left {
     float: left;
-    background: moccasin;
+    background: #d2e1f4;
     color: #7f725a;
+    padding: 10px;
 }
 .big_box {
     width: 50%;
-    min-height: 300px;
+    min-height: 250px;
+    margin: 20px 0;
 }
 .big_box_right {
     float: right;
@@ -54,16 +61,33 @@ nav {
 .section_text {
     margin: 2em 2em;
 }
+.section_small_box {
+     background: #d2e1f4;
+}
 .small_box {
     width: 32%;
     float: left;
-    height: 100px;
-    border: black solid 1px;
-    margin: 20px 2px;
-    text-align: center;
+    height: 150px;
+    border: #4c4436 solid 1px;
+    margin: 20px 5px;
+    background: white;
+    color: #4c4436;
+    background-size: cover;
+    border-radius: 2px;
+    opacity: 0.75;
+}
+.prague1 {
+    background-image: url("../img/Prague1.jpg");
+}
+.prague2 {
+    background-image: url("../img/Prague2.jpg");
+}
+.prague3 {
+    background-image: url("../img/Prague3.jpg");
 }
 footer {
     margin-top: 30px;
+    color: #4c4436;
 }
 .footer_copyright {
     float: left;
