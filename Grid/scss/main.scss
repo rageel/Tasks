@@ -1,0 +1,50 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+
+  .row {
+
+    &:after, &:before {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    [class*='col-'] {
+      float: left;
+      min-height: 1px;
+    }
+
+    @for $i from 1 to 13 {
+      .col-#{$i} {
+        width: calc( 100% / 12 * #{$i} - 2px);
+        @media (max-width: 700px) {
+          width: 100%;
+        }
+      }
+    }
+    .header {
+      background: #363b74;
+      height: 80px;
+      margin-bottom: 20px;
+    }
+    .left {
+      background: #673888;
+      height: 40px;
+    }
+    .middle {
+      background: #c79dd7;
+      height: 50px;
+    }
+    .right {
+      background: #ef4f91;
+      height: 50px;
+    }
+    .footer {
+      background: #4d1b7b;
+      height: 100px;
+      margin-top: 20px;
+    }
+  }
+}
